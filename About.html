@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Destiny Project</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+<script src="https://use.fontawesome.com/12466b2b2c.js"></script>
+</head>
+<body>
+
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo_Nav.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li> <a href="">About</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()" ></i>
+        </nav>
+      <h1>About us</h1>
+    </section>
+
+        <!--Content-->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Destiny FTW</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure aut similique iusto velit aliquam commodi, quas modi quaerat, tempora eligendi facere porro vero beatae rem, aliquid distinctio suscipit explicabo. Perspiciatis?</p>
+            <a href="" class="mbtn cbtn">Explore now</a>
+        </div>
+        <div class="about-col">
+            <img src="img/about.jpg" alt="">
+        </div>
+    </div>
+</section>
+   
+
+
+<!--footer-->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quibusdam vitae perferendis amet. <br> Iste illo consequuntur quas laboriosam labore accusamus optio praesentium aut, earum dolore nesciunt magni quo expedita. Sapiente?</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+    <p>Made with  <i class="fa fa-heart-o"></i> By Destiny</p>
+</section>
+
+
+
+
+
+
+    <!-------js for toggle menu-->
+
+    <script>
+    var navlinks = document.getElementById("navlinks") 
+
+    function showmenu(){
+        navlinks.style.right = "0"
+    }
+        function hidemenu(){
+        navlinks.style.right = "-200px"
+    }
+
+    </script>
+</body>
+</html>
